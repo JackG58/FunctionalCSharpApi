@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jack/Documents/@PersonalDev/CQRSWithLangExtExample/CQRSWithLangExtExample.csproj": {}
+  },
+  "projects": {
+    "/home/jack/Documents/@PersonalDev/CQRSWithLangExtExample/CQRSWithLangExtExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jack/Documents/@PersonalDev/CQRSWithLangExtExample/CQRSWithLangExtExample.csproj",
+        "projectName": "CQRSWithLangExtExample",
+        "projectPath": "/home/jack/Documents/@PersonalDev/CQRSWithLangExtExample/CQRSWithLangExtExample.csproj",
+        "packagesPath": "/home/jack/.nuget/packages/",
+        "outputPath": "/home/jack/Documents/@PersonalDev/CQRSWithLangExtExample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jack/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://mondo-artifacts-290556015539.d.codeartifact.ap-southeast-2.amazonaws.com/nuget/MondoNPMPackages/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
